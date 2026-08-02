@@ -99,7 +99,7 @@ Histogram analysis was performed to study their distributions.
 > **Image Placeholder**
 
 ```
-[ Insert Histogram Here ]
+![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b84f11dc5ef84c9f1367cd2ebce72a6cff963c8b/Graphs/UpperBP.jpeg)
 ```
 
 ---
