@@ -107,10 +107,8 @@ Histogram analysis was performed to study their distributions.
 ### Lower Blood Pressure Histogram
 
 > **Image Placeholder**
+  ![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/LowerBP.jpeg)
 
-```
-[ Insert Histogram Here ]
-```
 
 ---
 
@@ -120,9 +118,7 @@ The target variable distribution was analyzed to determine class balance.
 
 > **Image Placeholder**
 
-```
-[ Insert Disorder Distribution Chart ]
-```
+  ![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/People%20based%20Sleep.jpeg)
 
 ---
 
@@ -133,22 +129,8 @@ The prevalence of sleep disorders across male and female participants was analyz
 ### Gender Distribution
 
 > **Image Placeholder**
+ ![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/gender%20based.jpeg)
 
-```
-[ Insert Gender Distribution Chart ]
-```
-
----
-
-### Sleep Disorder by Gender
-
-> **Image Placeholder**
-
-```
-[ Insert Gender vs Disorder Chart ]
-```
-
----
 
 ## Categorical Feature Analysis
 
@@ -162,11 +144,7 @@ Examples include:
 - Sleep Disorder
 
 > **Image Placeholder**
-
-```
-[ Insert Categorical Values Chart ]
-```
-
+![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/Dist.jpeg)
 ---
 
 ## Sleep Disorder vs Stress Level
@@ -177,9 +155,7 @@ The relationship between stress levels and sleep disorders was visualized.
 
 > **Image Placeholder**
 
-```
-[ Insert Stress Level Chart ]
-```
+![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/Stress%20Level.jpeg)
 
 ---
 
@@ -191,9 +167,7 @@ This visualization highlights the relationship between obesity, overweight condi
 
 > **Image Placeholder**
 
-```
-[ Insert BMI Category Chart ]
-```
+![imag alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/BMI.jpeg)
 
 ---
 
@@ -205,9 +179,7 @@ Highly correlated features can significantly influence predictive performance.
 
 > **Image Placeholder**
 
-```
-[ Insert Correlation Heatmap ]
-```
+![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/Analyze%20features.jpeg)
 
 ---
 
@@ -314,42 +286,13 @@ These transformations improve model learning while preserving important clinical
 
 ---
 
-# Hyperparameter Optimization
-
-To maximize predictive performance, hyperparameter tuning was performed using **GridSearchCV**.
-
-Each model's important parameters were optimized.
-
-Examples include:
-
-### Random Forest
-
-- Number of Trees
-- Maximum Depth
-- Minimum Samples Split
-- Minimum Samples Leaf
-
-### XGBoost
-
-- Learning Rate
-- Maximum Depth
-- Number of Estimators
-- Subsample Ratio
-- Column Sampling
-
-### Gradient Boosting
-
-- Learning Rate
-- Maximum Depth
-- Number of Estimators
-
-The optimized models demonstrated improved predictive performance compared to their default configurations.
 
 ---
 
 # Model Evaluation
 
 Each classifier was evaluated using multiple performance metrics.
+![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/Roc.jpeg)
 
 Evaluation metrics include:
 
@@ -360,6 +303,8 @@ Evaluation metrics include:
 - ROC-AUC Score
 - Confusion Matrix
 - Cross Validation Accuracy
+
+  ![image alt](https://github.com/Fahadkhan2450/-sleep-disorder-diagnosis-through-optimized-machine-learning-approaches/blob/b7bf546a0eba1dc5347b37f80475caa195bc5562/Graphs/Cross%20acc.jpeg)
 
 A comprehensive comparison was conducted to identify the best-performing model for sleep disorder classification.
 
@@ -391,7 +336,6 @@ The comparison of multiple supervised learning algorithms demonstrates the effec
 # Future Work
 
 - Deep Learning (Artificial Neural Networks)
-- Explainable AI (SHAP & LIME)
 - Feature Selection Techniques
 - Model Deployment using Flask/FastAPI
 - Real-time Sleep Disorder Prediction System
